@@ -1,0 +1,907 @@
+# Copyright (C) 2026 FYZI Shield
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FYZI Guard 1.1.0\n"
+"Report-Msgid-Bugs-To: https://fyzi.ru/\n"
+"POT-Creation-Date: 2026-10-09 18:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: fyzi-guard\n"
+
+#: fyzi-guard.php:68
+msgid "Plugin activated, current administrators saved as known."
+msgstr "Плагин активирован, текущие администраторы взяты за основу."
+
+#: includes/class-admin.php:38
+msgid "Dashboard"
+msgstr "Панель"
+
+#: includes/class-admin.php:47
+msgid "You do not have permission to do this."
+msgstr "Недостаточно прав."
+
+#: includes/class-admin.php:110
+msgid "All current administrators marked as known."
+msgstr "Все текущие администраторы отмечены как свои."
+
+#: includes/class-admin.php:135
+msgid "Test notification"
+msgstr "Тестовое уведомление"
+
+#: includes/class-admin.php:136
+msgid "If you see this message, FYZI Guard notifications are set up correctly."
+msgstr "Если вы видите это сообщение, уведомления FYZI Guard настроены правильно."
+
+#: includes/class-admin.php:163
+msgid "Check finished."
+msgstr "Проверка завершена."
+
+#: includes/class-admin.php:164
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: includes/class-admin.php:165 includes/class-hardening.php:144
+msgid "PHP execution in the uploads folder is now blocked."
+msgstr "Выполнение PHP в папке загрузок запрещено."
+
+#: includes/class-admin.php:166 includes/class-hardening.php:155
+msgid "The rule blocking PHP in the uploads folder was removed."
+msgstr "Запрет PHP в папке загрузок снят."
+
+#: includes/class-admin.php:167
+msgid "Could not write .htaccess to the uploads folder: it is not writable."
+msgstr "Не удалось записать .htaccess в папку загрузок — нет прав на запись."
+
+#: includes/class-admin.php:168
+msgid "Administrator marked as known."
+msgstr "Администратор отмечен как свой."
+
+#: includes/class-admin.php:169
+msgid "Finding hidden."
+msgstr "Находка скрыта."
+
+#: includes/class-admin.php:170
+msgid "Test notification sent."
+msgstr "Тестовое уведомление отправлено."
+
+#: includes/class-admin.php:171
+msgid "Could not send the notification. Check the settings and the log."
+msgstr "Не удалось отправить уведомление. Проверьте настройки и журнал."
+
+#: includes/class-admin.php:172
+msgid "Log cleared."
+msgstr "Журнал очищен."
+
+#: includes/class-admin.php:186
+msgid "Overview"
+msgstr "Обзор"
+
+#: includes/class-admin.php:187 includes/class-admin.php:251
+msgid "Protection"
+msgstr "Защита"
+
+#: includes/class-admin.php:188
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: includes/class-admin.php:189
+msgid "Log"
+msgstr "Журнал"
+
+#: includes/class-admin.php:195
+msgid "Made in Russia: protection of WordPress against mass hacking"
+msgstr "Российская разработка для защиты WordPress от массовых взломов"
+
+#: includes/class-admin.php:226
+msgid "FYZI Guard is developed in Russia by specialists who clean hacked websites every day."
+msgstr "FYZI Guard — российская разработка. Его делают специалисты, которые каждый день лечат взломанные сайты."
+
+#. translators: %d: number of additional findings
+#: includes/class-admin.php:234 includes/class-scanner.php:81
+msgid "Signs of infection found"
+msgstr "Найдены признаки заражения"
+
+#: includes/class-admin.php:234
+msgid "See the findings below. If you are not sure what to do, FYZI Shield specialists will help clean the site."
+msgstr "Посмотрите находки ниже. Если не уверены, что делать, — специалисты FYZI Shield помогут вылечить сайт."
+
+#: includes/class-admin.php:236
+msgid "There are weak spots"
+msgstr "Есть уязвимые места"
+
+#: includes/class-admin.php:236
+msgid "No serious threats found, but some things are worth fixing."
+msgstr "Серьёзных угроз не найдено, но кое-что стоит исправить."
+
+#: includes/class-admin.php:238
+msgid "The site is protected"
+msgstr "Сайт под защитой"
+
+#: includes/class-admin.php:238
+msgid "The last check found no problems."
+msgstr "Последняя проверка не нашла проблем."
+
+#: includes/class-admin.php:240
+msgid "The first check has not run yet"
+msgstr "Первая проверка ещё не запускалась"
+
+#: includes/class-admin.php:240
+msgid "Run it now, it takes up to a minute."
+msgstr "Запустите её сейчас — это займёт до минуты."
+
+#. translators: %s: date and time of the last check
+#: includes/class-admin.php:246
+#, php-format
+msgid "Last check: %s"
+msgstr "Последняя проверка: %s"
+
+#. translators: %s: date and time of the last check
+#: includes/class-admin.php:246
+msgid "never"
+msgstr "не было"
+
+#: includes/class-admin.php:248
+msgid "Check now"
+msgstr "Проверить сейчас"
+
+#: includes/class-admin.php:254
+msgid "REST batch requests closed for visitors"
+msgstr "Пакетные REST-запросы закрыты для гостей"
+
+#: includes/class-admin.php:255
+msgid "User logins hidden"
+msgstr "Логины пользователей скрыты"
+
+#: includes/class-admin.php:256
+msgid "XML-RPC disabled"
+msgstr "XML-RPC отключён"
+
+#: includes/class-admin.php:257
+msgid "File editor in the admin disabled"
+msgstr "Редактор файлов в админке отключён"
+
+#: includes/class-admin.php:258
+msgid "Login attempts limited"
+msgstr "Попытки входа ограничены"
+
+#: includes/class-admin.php:259
+msgid "PHP blocked in the uploads folder"
+msgstr "PHP в папке загрузок запрещён"
+
+#: includes/class-admin.php:264
+msgid "Configure protection →"
+msgstr "Настроить защиту →"
+
+#: includes/class-admin.php:271
+msgid "Site administrators"
+msgstr "Администраторы сайта"
+
+#: includes/class-admin.php:271
+msgid "The list is read directly from the database, so hidden administrators are visible here too."
+msgstr "Список берётся напрямую из базы данных, поэтому здесь видны и скрытые администраторы."
+
+#: includes/class-admin.php:272
+msgid "Login"
+msgstr "Логин"
+
+#: includes/class-admin.php:272
+msgid "Created"
+msgstr "Создан"
+
+#: includes/class-admin.php:272
+msgid "Status"
+msgstr "Статус"
+
+#: includes/class-admin.php:277
+msgid "Hidden from the list!"
+msgstr "Скрыт из списка!"
+
+#: includes/class-admin.php:279
+msgid "Known"
+msgstr "Свой"
+
+#: includes/class-admin.php:281
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: includes/class-admin.php:286
+msgid "This is my administrator"
+msgstr "Это мой администратор"
+
+#: includes/class-admin.php:287
+msgid "Find and delete"
+msgstr "Найти и удалить"
+
+#: includes/class-admin.php:299
+msgid "Check results"
+msgstr "Результаты проверки"
+
+#: includes/class-admin.php:301
+msgid "No problems found."
+msgstr "Проблем не найдено."
+
+#: includes/class-admin.php:301
+msgid "The check has not run yet."
+msgstr "Проверка ещё не запускалась."
+
+#: includes/class-admin.php:304
+msgid "Threat"
+msgstr "Угроза"
+
+#: includes/class-admin.php:305
+msgid "Attention"
+msgstr "Внимание"
+
+#: includes/class-admin.php:306
+msgid "Info"
+msgstr "Сведения"
+
+#: includes/class-admin.php:321
+msgid "Hide"
+msgstr "Скрыть"
+
+#: includes/class-admin.php:326
+msgid "Is the site infected?"
+msgstr "Сайт заражён?"
+
+#: includes/class-admin.php:326
+msgid "FYZI Shield specialists will find and remove the malicious code, close the vulnerability and get search engine warnings removed."
+msgstr "Специалисты FYZI Shield найдут и удалят вредоносный код, закроют уязвимость и снимут санкции поисковиков."
+
+#: includes/class-admin.php:326
+msgid "Clean the site"
+msgstr "Вылечить сайт"
+
+#: includes/class-admin.php:347
+msgid "Closing attack channels"
+msgstr "Закрытие каналов атак"
+
+#: includes/class-admin.php:348
+msgid "Close REST batch requests for visitors"
+msgstr "Закрыть пакетные REST-запросы для гостей"
+
+#: includes/class-admin.php:348
+msgid "Bots massively create fake administrators through /wp-json/batch/v1. Site editors are not affected."
+msgstr "Через /wp-json/batch/v1 боты массово создают поддельных администраторов. Редакторам сайта это не мешает."
+
+#: includes/class-admin.php:349
+msgid "Hide user logins"
+msgstr "Скрыть логины пользователей"
+
+#: includes/class-admin.php:349
+msgid "Closes /wp-json/wp/v2/users and ?author= for visitors, so bots cannot learn logins for password guessing."
+msgstr "Закрывает /wp-json/wp/v2/users и ?author= для посетителей — боты не узнают логины для подбора паролей."
+
+#: includes/class-admin.php:350
+msgid "Disable XML-RPC"
+msgstr "Отключить XML-RPC"
+
+#: includes/class-admin.php:350
+msgid "Needed only by old mobile apps and some integrations. The main channel for password brute force."
+msgstr "Нужен только старым мобильным приложениям и некоторым интеграциям. Основной канал перебора паролей."
+
+#: includes/class-admin.php:351
+msgid "Disable the file editor in the admin"
+msgstr "Отключить редактор файлов в админке"
+
+#: includes/class-admin.php:351
+msgid "Even with a stolen password, nobody can inject code into a theme or plugin from the admin."
+msgstr "Даже с украденным паролем нельзя будет вписать код в тему или плагин."
+
+#: includes/class-admin.php:352
+msgid "Disable application passwords"
+msgstr "Отключить пароли приложений"
+
+#: includes/class-admin.php:352
+msgid "Turn on if you do not use REST API integrations (WordPress mobile app, external services)."
+msgstr "Включите, если не используете интеграции через REST API (мобильное приложение WordPress, внешние сервисы)."
+
+#: includes/class-admin.php:353
+msgid "Hide the WordPress version in page code"
+msgstr "Скрыть версию WordPress в коде страниц"
+
+#: includes/class-admin.php:355
+msgid "Admin login"
+msgstr "Вход в админку"
+
+#: includes/class-admin.php:356
+msgid "Limit login attempts"
+msgstr "Ограничить попытки входа"
+
+#: includes/class-admin.php:357
+msgid "Attempts before lock"
+msgstr "Попыток до блокировки"
+
+#: includes/class-admin.php:358
+msgid "Lock duration, minutes"
+msgstr "Блокировка, минут"
+
+#: includes/class-admin.php:359
+msgid "The site is behind a proxy or CDN (use X-Forwarded-For)"
+msgstr "Сайт за прокси или CDN (учитывать X-Forwarded-For)"
+
+#: includes/class-admin.php:359
+msgid "Turn on only if all visitors look like a single IP address to the site."
+msgstr "Включайте, только если все посетители для сайта выглядят как один IP-адрес."
+
+#: includes/class-admin.php:361
+msgid "Daily check"
+msgstr "Ежедневная проверка"
+
+#: includes/class-admin.php:362
+msgid "Compare WordPress core with the original from wordpress.org"
+msgstr "Сверять ядро WordPress с оригиналом wordpress.org"
+
+#: includes/class-admin.php:363
+msgid "Look for PHP files and code in the uploads folder"
+msgstr "Искать PHP-файлы и код в папке загрузок"
+
+#: includes/class-admin.php:364
+msgid "Watch for new and modified PHP files in plugins and themes"
+msgstr "Следить за новыми и изменёнными PHP-файлами в плагинах и темах"
+
+#: includes/class-admin.php:365 includes/class-admin.php:408
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/class-admin.php:368
+msgid "Block PHP in the uploads folder"
+msgstr "Запрет PHP в папке загрузок"
+
+#: includes/class-admin.php:369
+msgid "One of the strongest measures: even if a web shell is uploaded through a vulnerability, the server will not execute it."
+msgstr "Одна из самых сильных мер: даже если через уязвимость на сайт загрузят веб-шелл, сервер не станет его выполнять."
+
+#: includes/class-admin.php:372
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/class-admin.php:374
+msgid "Remove the block"
+msgstr "Снять запрет"
+
+#: includes/class-admin.php:377
+msgid "Block PHP in uploads"
+msgstr "Запретить PHP в загрузках"
+
+#: includes/class-admin.php:380
+msgid "The site seems to run on nginx without Apache. Ask your hosting to add this rule to the site configuration:"
+msgstr "Похоже, сайт работает на nginx без Apache. Попросите хостинг добавить в конфигурацию сайта правило:"
+
+#: includes/class-admin.php:381
+msgid "If you actually use Apache, you can enable the block with the button:"
+msgstr "Если на самом деле у вас Apache, можно включить запрет кнопкой:"
+
+#: includes/class-admin.php:383
+msgid "Write .htaccess"
+msgstr "Записать .htaccess"
+
+#: includes/class-admin.php:393
+msgid "E-mail"
+msgstr "Почта"
+
+#: includes/class-admin.php:394
+msgid "Send alerts by e-mail"
+msgstr "Присылать тревоги на почту"
+
+#: includes/class-admin.php:395
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/class-admin.php:398
+msgid "Send alerts to Telegram"
+msgstr "Присылать тревоги в Telegram"
+
+#. translators: %s: link to @BotFather
+#: includes/class-admin.php:401
+#, php-format
+msgid "Open %s, send /newbot and copy the token."
+msgstr "Откройте %s, отправьте /newbot и скопируйте токен."
+
+#: includes/class-admin.php:402
+msgid "Send any message to your new bot."
+msgstr "Напишите своему новому боту любое сообщение."
+
+#. translators: %s: link to @userinfobot
+#: includes/class-admin.php:404
+#, php-format
+msgid "Open %s, it will show your ID. Paste it below."
+msgstr "Откройте %s — он покажет ваш ID. Его и вставьте ниже."
+
+#: includes/class-admin.php:406
+msgid "Bot token"
+msgstr "Токен бота"
+
+#: includes/class-admin.php:407
+msgid "Chat ID"
+msgstr "ID чата"
+
+#: includes/class-admin.php:411
+msgid "Send a test notification"
+msgstr "Отправить тестовое уведомление"
+
+#: includes/class-admin.php:417
+msgid "Event log"
+msgstr "Журнал событий"
+
+#: includes/class-admin.php:419
+msgid "No events yet."
+msgstr "Событий пока нет."
+
+#: includes/class-admin.php:421
+msgid "Time"
+msgstr "Время"
+
+#: includes/class-admin.php:421
+msgid "Event"
+msgstr "Событие"
+
+#: includes/class-admin.php:421
+msgid "Details"
+msgstr "Подробности"
+
+#: includes/class-admin.php:432
+msgid "Clear the log"
+msgstr "Очистить журнал"
+
+#: includes/class-admin.php:439
+msgid "The plugin protects the site from the inside. Pro watches it from the outside and brings in a specialist when something happens: uptime and Yandex/Google blacklist monitoring, infection cleanup, the “Clean site” guarantee."
+msgstr "Плагин защищает сайт изнутри. Pro следит за ним снаружи и подключает специалиста, если что-то случилось: мониторинг доступности и чёрных списков Яндекса и Google, лечение заражений, гарантия «Чистый сайт»."
+
+#: includes/class-admin.php:440
+msgid "Learn about Pro"
+msgstr "Подробнее о Pro"
+
+#: includes/class-admin.php:445
+msgid "Closing channels of mass attacks"
+msgstr "Закрытие каналов массовых атак"
+
+#: includes/class-admin.php:446
+msgid "Login attempt limiting"
+msgstr "Ограничение попыток входа"
+
+#: includes/class-admin.php:447
+msgid "Administrator watchdog, including hidden ones"
+msgstr "Наблюдение за администраторами, включая скрытых"
+
+#: includes/class-admin.php:448
+msgid "Daily comparison of core files with wordpress.org"
+msgstr "Ежедневная сверка ядра с wordpress.org"
+
+#: includes/class-admin.php:449
+msgid "Search for web shells and malicious code"
+msgstr "Поиск веб-шеллов и вредоносного кода"
+
+#: includes/class-admin.php:450
+msgid "Alerts by e-mail and to your own Telegram"
+msgstr "Тревоги на почту и в свой Telegram"
+
+#: includes/class-admin.php:453
+msgid "24/7 external monitoring: uptime, SSL, redirects for mobile visitors"
+msgstr "Внешний мониторинг 24/7: доступность, SSL, редиректы для мобильных посетителей"
+
+#: includes/class-admin.php:454
+msgid "Tracking of “dangerous site” warnings in Yandex and Google"
+msgstr "Отслеживание пометок «опасный сайт» в Яндексе и Google"
+
+#: includes/class-admin.php:455
+msgid "Infection cleanup by a specialist, not just a notification"
+msgstr "Лечение заражений специалистом, а не только уведомление"
+
+#: includes/class-admin.php:456
+msgid "Removal of malicious code from the database"
+msgstr "Удаление вредоносного кода из базы данных"
+
+#: includes/class-admin.php:457
+msgid "Daily backups to external storage"
+msgstr "Ежедневные резервные копии во внешнее хранилище"
+
+#: includes/class-admin.php:458
+msgid "The “Clean site” guarantee and priority support in Telegram"
+msgstr "Гарантия «Чистый сайт» и приоритетная поддержка в Telegram"
+
+#: includes/class-admin.php:459
+msgid "White-label reports for web studio clients"
+msgstr "Отчёты для клиентов под брендом веб-студии"
+
+#: includes/class-admin.php:461
+msgid "Free"
+msgstr "Бесплатно"
+
+#: includes/class-admin.php:465
+msgid "Already working on your site."
+msgstr "Уже работает на вашем сайте."
+
+#: includes/class-admin.php:466
+msgid "from 490 ₽ / month"
+msgstr "от 490 ₽ / мес"
+
+#: includes/class-admin.php:466
+msgid "Everything in the free version"
+msgstr "Всё, что есть в бесплатной версии"
+
+#: includes/class-admin.php:470
+msgid "Get Pro"
+msgstr "Подключить Pro"
+
+#: includes/class-admin.php:471
+msgid "A Russian service: payment in rubles, support in Russian."
+msgstr "Российский сервис, оплата в рублях, поддержка на русском языке."
+
+#: includes/class-hardening.php:53
+msgid "Blocked an unauthenticated REST batch request"
+msgstr "Заблокирован пакетный REST-запрос без авторизации"
+
+#: includes/class-hardening.php:56
+msgid "Request blocked by FYZI Guard."
+msgstr "Запрос заблокирован FYZI Guard."
+
+#: includes/class-hardening.php:64
+msgid "The user list is not available."
+msgstr "Список пользователей недоступен."
+
+#: includes/class-hardening.php:139
+msgid "The uploads folder is not writable."
+msgstr "Нет прав на запись в папку загрузок."
+
+#: includes/class-hardening.php:142
+msgid "Could not write .htaccess to the uploads folder."
+msgstr "Не удалось записать файл .htaccess в папку загрузок."
+
+#: includes/class-login-guard.php:63
+msgid "IP address locked after failed login attempts"
+msgstr "IP заблокирован после неудачных попыток входа"
+
+#. translators: %d: minutes until the lock expires
+#: includes/class-login-guard.php:42
+#, php-format
+msgid "Too many failed login attempts. Try again in %d minute."
+msgid_plural "Too many failed login attempts. Try again in %d minutes."
+msgstr[0] "Слишком много неудачных попыток входа. Попробуйте через %d минуту."
+msgstr[1] "Слишком много неудачных попыток входа. Попробуйте через %d минуты."
+msgstr[2] "Слишком много неудачных попыток входа. Попробуйте через %d минут."
+
+#. translators: %s: site domain
+#: includes/class-notifier.php:21
+#, php-format
+msgid "Site: %s"
+msgstr "Сайт: %s"
+
+#. translators: %s: site domain */             . sprintf(__('Site: %s', 'fyzi-guard'), $site) . "\n\n" . implode("\n", $lines) . "\n\n"             /* translators: %s: URL of the plugin dashboard
+#: includes/class-notifier.php:23
+#, php-format
+msgid "Dashboard: %s"
+msgstr "Панель: %s"
+
+#. translators: %s: error message
+#: includes/class-notifier.php:64
+#, php-format
+msgid "Could not send a Telegram message: %s"
+msgstr "Не удалось отправить сообщение в Telegram: %s"
+
+#. translators: %s: error message */             FYZI_Guard_Log::add('warning', sprintf(__('Could not send a Telegram message: %s', 'fyzi-guard'), $res->get_error_message()));             return false;         }         $code = wp_remote_retrieve_response_code($res);         if ($code !== 200) {             /* translators: %d: HTTP status code
+#: includes/class-notifier.php:70
+#, php-format
+msgid "Telegram returned error %d. Check the bot token and chat ID."
+msgstr "Telegram ответил ошибкой %d. Проверьте токен бота и ID чата."
+
+#: includes/class-scanner.php:21
+msgid "eval() that decodes hidden code"
+msgstr "eval() с расшифровкой скрытого кода"
+
+#: includes/class-scanner.php:22
+msgid "executes code from request parameters (web shell)"
+msgstr "выполнение кода из параметров запроса (веб-шелл)"
+
+#: includes/class-scanner.php:23
+msgid "runs server commands from the request (web shell)"
+msgstr "выполнение команд сервера из запроса (веб-шелл)"
+
+#: includes/class-scanner.php:24
+msgid "preg_replace with the /e modifier"
+msgstr "preg_replace с модификатором /e"
+
+#: includes/class-scanner.php:25
+msgid "dangerous function name assembled from string pieces"
+msgstr "сборка имени опасной функции из частей строки"
+
+#: includes/class-scanner.php:26
+msgid "includes PHP code from an image or text file"
+msgstr "подключение PHP-кода из файла картинки или текста"
+
+#: includes/class-scanner.php:27
+msgid "file uploader driven by the request"
+msgstr "загрузчик файлов по запросу"
+
+#: includes/class-scanner.php:28
+msgid "creates an administrator in code"
+msgstr "создание администратора в коде"
+
+#: includes/class-scanner.php:29
+msgid "long hex-encoded string (obfuscation)"
+msgstr "длинная строка в hex-кодировке (обфускация)"
+
+#: includes/class-scanner.php:30
+msgid "attacker signature"
+msgstr "подпись взломщика"
+
+#. translators: %d: number of additional findings
+#: includes/class-scanner.php:78
+#, php-format
+msgid "…and %d more"
+msgstr "…и ещё %d"
+
+#. translators: %d: number of additional findings
+#: includes/class-scanner.php:81
+msgid "The check found problems"
+msgstr "Проверка нашла проблемы"
+
+#. translators: %d: number of findings
+#: includes/class-scanner.php:90
+#, php-format
+msgid "Check finished: %d findings"
+msgstr "Проверка завершена: находок %d"
+
+#: includes/class-scanner.php:126
+msgid "Could not get reference checksums from wordpress.org, the core check was skipped"
+msgstr "Не удалось получить эталонные контрольные суммы с wordpress.org — проверка ядра пропущена"
+
+#: includes/class-scanner.php:137
+msgid "Core file is missing"
+msgstr "Файл ядра отсутствует"
+
+#: includes/class-scanner.php:142
+msgid "WordPress core file modified"
+msgstr "Файл ядра WordPress изменён"
+
+#: includes/class-scanner.php:142
+msgid "The content differs from the original wordpress.org release of the same version."
+msgstr "Содержимое отличается от оригинала wordpress.org той же версии."
+
+#: includes/class-scanner.php:151
+msgid "Unknown PHP file inside WordPress core"
+msgstr "Посторонний PHP-файл в ядре WordPress"
+
+#: includes/class-scanner.php:151
+msgid "This file is not part of the original release. A common hiding place for a backdoor."
+msgstr "Такого файла нет в оригинальном дистрибутиве. Частое место для бэкдора."
+
+#: includes/class-scanner.php:158
+msgid "Unknown PHP file in the site root"
+msgstr "Посторонний PHP-файл в корне сайта"
+
+#: includes/class-scanner.php:158
+msgid "Check whether this file is needed."
+msgstr "Проверьте, нужен ли этот файл."
+
+#: includes/class-scanner.php:175
+msgid "PHP file in the uploads folder"
+msgstr "PHP-файл в папке загрузок"
+
+#. translators: %s: description of the detected malicious construct
+#: includes/class-scanner.php:178 includes/class-scanner.php:245
+#, php-format
+msgid "Detected: %s"
+msgstr "Найдено: %s"
+
+#. translators: %s: description of the detected malicious construct
+#: includes/class-scanner.php:178
+msgid "There should be no PHP files in the uploads folder. Most often this is a web shell."
+msgstr "В папке загрузок PHP-файлов быть не должно. Чаще всего это веб-шелл."
+
+#: includes/class-scanner.php:192
+msgid "PHP code inside an image"
+msgstr "PHP-код внутри картинки"
+
+#: includes/class-scanner.php:192
+msgid "The file pretends to be an image but contains PHP code."
+msgstr "Файл выдаёт себя за изображение, но содержит PHP-код."
+
+#. translators: %s: description of the detected malicious construct
+#: includes/class-scanner.php:245
+msgid "Malicious code"
+msgstr "Вредоносный код"
+
+#: includes/class-scanner.php:249
+msgid "New PHP file"
+msgstr "Новый PHP-файл"
+
+#: includes/class-scanner.php:249
+msgid "Appeared since the previous check. Normal after installing or updating a plugin."
+msgstr "Появился после прошлой проверки. Нормально после установки или обновления плагина."
+
+#: includes/class-scanner.php:252
+msgid "PHP file modified"
+msgstr "PHP-файл изменён"
+
+#: includes/class-scanner.php:252
+msgid "Changed since the previous check."
+msgstr "Изменился после прошлой проверки."
+
+#: includes/class-scanner.php:259
+msgid "Must-use plugin (mu-plugins)"
+msgstr "Обязательный плагин (mu-plugins)"
+
+#: includes/class-scanner.php:259
+msgid "Always active and not shown in the regular plugin list. Make sure you know it."
+msgstr "Работает всегда и не виден в обычном списке плагинов. Убедитесь, что вы его знаете."
+
+#: includes/class-scanner.php:282
+msgid "Plugin needs an update"
+msgstr "Плагин требует обновления"
+
+#. translators: %s: plugin version
+#: includes/class-scanner.php:285
+#, php-format
+msgid "Version %s is available. Outdated plugins are the main cause of hacks."
+msgstr "Доступна версия %s. Устаревшие плагины — главная причина взломов."
+
+#. translators: %s: WordPress version
+#: includes/class-scanner.php:294
+msgid "A WordPress update is available"
+msgstr "Доступно обновление WordPress"
+
+#. translators: %s: WordPress version
+#: includes/class-scanner.php:294
+#, php-format
+msgid "New version: %s"
+msgstr "Новая версия: %s"
+
+#: includes/class-scanner.php:306
+msgid "debug.log is accessible in wp-content"
+msgstr "Файл debug.log доступен в wp-content"
+
+#. translators: %s: file size
+#: includes/class-scanner.php:309
+#, php-format
+msgid "Size %s. It may reveal paths and errors of the site. Disable WP_DEBUG_LOG or move the log."
+msgstr "Размер %s. Он может раскрывать пути и ошибки сайта. Отключите WP_DEBUG_LOG или перенесите журнал."
+
+#. translators: %s: file size
+#: includes/class-scanner.php:313
+msgid "readme.html reveals the WordPress version"
+msgstr "Файл readme.html раскрывает версию WordPress"
+
+#: includes/class-scanner.php:313
+msgid "You can delete it; it comes back with the next update."
+msgstr "Его можно удалить, он вернётся при следующем обновлении."
+
+#: includes/class-scanner.php:316
+msgid "PHP execution is allowed in the uploads folder"
+msgstr "В папке загрузок разрешено выполнение PHP"
+
+#: includes/class-scanner.php:316
+msgid "Turn on the protection on the FYZI Guard “Protection” tab, it is one click."
+msgstr "Включите защиту на вкладке «Защита» FYZI Guard — одна кнопка."
+
+#: includes/class-scanner.php:319
+msgid "The site works without HTTPS"
+msgstr "Сайт работает без HTTPS"
+
+#: includes/class-scanner.php:319
+msgid "Administrator passwords are sent unencrypted."
+msgstr "Пароли администраторов передаются в открытом виде."
+
+#. translators: %s: folder path
+#: includes/class-scanner.php:358
+#, php-format
+msgid "Could not read the folder %s"
+msgstr "Не удалось прочитать папку %s"
+
+#: includes/class-scanner.php:375
+msgid "obfuscated code block"
+msgstr "обфусцированный блок кода"
+
+#. translators: %d: number of critical findings
+#: includes/class-scanner.php:403
+#, php-format
+msgid "signs of site infection found (%d)."
+msgstr "найдены признаки заражения сайта (%d)."
+
+#. translators: %d: number of critical findings
+#: includes/class-scanner.php:405
+msgid "View"
+msgstr "Посмотреть"
+
+#: includes/class-watchdog.php:67
+msgid "Administrator marked as known"
+msgstr "Администратор отмечен как свой"
+
+#. translators: %s: user login
+#: includes/class-watchdog.php:82 includes/class-watchdog.php:125
+#, php-format
+msgid "Login: %s"
+msgstr "Логин: %s"
+
+#. translators: %s: user login */             sprintf(__('Login: %s', 'fyzi-guard'), $user->user_login),             /* translators: %s: user e-mail
+#: includes/class-watchdog.php:84 includes/class-watchdog.php:127
+#, php-format
+msgid "E-mail: %s"
+msgstr "E-mail: %s"
+
+#. translators: %s: user login */             sprintf(__('Login: %s', 'fyzi-guard'), $user->user_login),             /* translators: %s: user e-mail */             sprintf(__('E-mail: %s', 'fyzi-guard'), $user->user_email),             $actor                 /* translators: %d: ID of the user who created the account
+#: includes/class-watchdog.php:87
+#, php-format
+msgid "Created by: user #%d"
+msgstr "Кто создал: пользователь #%d"
+
+#. translators: %s: user e-mail */             sprintf(__('E-mail: %s', 'fyzi-guard'), $user->user_email),             $actor                 /* translators: %d: ID of the user who created the account
+#: includes/class-watchdog.php:88
+msgid "Created by: nobody logged in (suspicious!)"
+msgstr "Кто создал: без входа в систему (подозрительно!)"
+
+#. translators: %d: ID of the user who created the account */                 ? sprintf(__('Created by: user #%d', 'fyzi-guard'), $actor)                 : __('Created by: nobody logged in (suspicious!)', 'fyzi-guard'),             /* translators: %s: IP address
+#: includes/class-watchdog.php:90
+#, php-format
+msgid "Request IP: %s"
+msgstr "IP запроса: %s"
+
+#. translators: %s: IP address */             sprintf(__('Request IP: %s', 'fyzi-guard'), FYZI_Guard_Login_Guard::client_ip()),             /* translators: %s: request URI
+#: includes/class-watchdog.php:92
+#, php-format
+msgid "Request URI: %s"
+msgstr "Адрес запроса: %s"
+
+#. translators: %s: IP address */             sprintf(__('Request IP: %s', 'fyzi-guard'), FYZI_Guard_Login_Guard::client_ip()),             /* translators: %s: request URI
+#: includes/class-watchdog.php:94
+msgid "If this was not you, delete the user and change all passwords. If it is yours, click “This is my administrator” in the FYZI Guard dashboard."
+msgstr "Если это не вы — удалите пользователя и смените пароли. Если свой — нажмите «Это мой администратор» в панели FYZI Guard."
+
+#: includes/class-watchdog.php:97
+msgid "A new administrator appeared"
+msgstr "Появился новый администратор"
+
+#: includes/class-watchdog.php:123
+msgid "Unknown administrator detected"
+msgstr "Обнаружен неизвестный администратор"
+
+#. translators: %s: user login */                 sprintf(__('Login: %s', 'fyzi-guard'), $row['user_login']),                 /* translators: %s: user e-mail */                 sprintf(__('E-mail: %s', 'fyzi-guard'), $row['user_email']),                 /* translators: %s: registration date
+#: includes/class-watchdog.php:129
+#, php-format
+msgid "Registered: %s"
+msgstr "Зарегистрирован: %s"
+
+#. translators: %s: user login */                 sprintf(__('Login: %s', 'fyzi-guard'), $row['user_login']),                 /* translators: %s: user e-mail */                 sprintf(__('E-mail: %s', 'fyzi-guard'), $row['user_email']),                 /* translators: %s: registration date
+#: includes/class-watchdog.php:130
+msgid "The user exists in the database, but WordPress never reported creating it. This happens when an administrator is inserted directly into the database or through a vulnerability."
+msgstr "Пользователь найден в базе данных, но WordPress не сообщал о его создании. Так бывает, когда администратора добавляют напрямую в базу или через уязвимость."
+
+#: includes/class-watchdog.php:143
+msgid "Hidden administrators found"
+msgstr "Найдены скрытые администраторы"
+
+#. translators: %s: comma-separated list of logins
+#: includes/class-watchdog.php:145
+#, php-format
+msgid "The database contains administrators that are not shown in the user list: %s"
+msgstr "В базе есть администраторы, которых не видно в списке пользователей: %s"
+
+#. translators: %s: comma-separated list of logins
+#: includes/class-watchdog.php:146
+msgid "Most likely, malicious code on the site is hiding them."
+msgstr "Скорее всего, на сайте есть вредоносный код, который их прячет."
+
+#: includes/class-watchdog.php:185
+msgid "An application password was created for an administrator"
+msgstr "Создан пароль приложения у администратора"
+
+#. translators: %s: user login
+#: includes/class-watchdog.php:187
+#, php-format
+msgid "User: %s"
+msgstr "Пользователь: %s"
+
+#. translators: %s: user login
+#: includes/class-watchdog.php:188
+msgid "An application password gives API access to the site and is not revoked when the regular password changes."
+msgstr "Пароль приложения даёт доступ к сайту через API и не отзывается при смене обычного пароля."
+
+#. translators: %s: user login
+#: includes/class-watchdog.php:189
+msgid "If you did not create it, delete it in the user profile."
+msgstr "Если вы его не создавали — удалите в профиле пользователя."
+
